@@ -17,9 +17,11 @@ body {
     padding: 10px 400px 0px 400px;
 }
 
-.result {
+.result, .game-over {
     padding: 10px 400px 0px 400px;
     text-align: left;
+    display: flex;
+    justify-content: space-between;
 }
 
 .weapons div {
@@ -38,5 +40,12 @@ body {
 
 .title {
     margin-top: 100px;
+    text-align: center;
+}
+
+.game-over {
+    font-size: 18px;
+    font-weight: bolder;
+    color: red;
     text-align: center;
 }
